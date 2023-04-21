@@ -1,0 +1,91 @@
+{
+    "category": "plugins",
+    "display": "AOS",
+    "fields": {
+        "AAU": {
+            "caption": "Selectors",
+            "default_val": "",
+            "doc": "add IDs of element you want to animate, seperate using comma. item1, item2, item 3,..",
+            "editor": "StaticText",
+            "name": "selectors",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "Animation",
+            "default_val": "fade",
+            "doc": "",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "fade,fade-up,fade-down,fade-left,fade-right,fade-up-right,fade-up-left,fade-down-right,fade-down-left,flip-up,flip-down,flip-left,flip-right,slide-up,slide-down,slide-left,slide-right,zoom-in,zoom-in-up,zoom-in-down,zoom-in-left,zoom-in-right,zoom-out,zoom-out-up,zoom-out-down,zoom-out-left,zoom-out-right",
+            "rank": 1
+        },
+        "AAW": {
+            "caption": "Easing",
+            "default_val": "ease",
+            "editor": "Dropdown",
+            "name": "easing",
+            "options": "linear,ease,ease-in,ease-out,ease-in-out,ease-in-back,ease-out-back,ease-in-out-back,ease-in-sine,ease-out-sine,ease-in-out-sine,ease-in-quad,ease-out-quad,ease-in-out-quad,ease-in-cubic,ease-out-cubic,ease-in-out-cubic,ease-in-quart,ease-out-quart,ease-in-out-quart",
+            "rank": 2
+        },
+        "AAX": {
+            "caption": "Anchor",
+            "default_val": "top-bottom",
+            "doc": "defines which position of the element regarding to window should trigger the animation. https://github.com/michalsnik/aos#anchor-placements",
+            "editor": "Dropdown",
+            "name": "anchor",
+            "options": "top-bottom,top-center,top-top,center-bottom,center-center,center-top,bottom-bottom,bottom-center,bottom-top",
+            "rank": 3
+        },
+        "AAY": {
+            "caption": "Duration",
+            "default_val": 500,
+            "doc": "values from 0 to 3000, with step 50",
+            "editor": "StaticNumber",
+            "name": "duration",
+            "rank": 4
+        },
+        "AAZ": {
+            "caption": "Mirror",
+            "default_val": false,
+            "doc": "whether elements should animate out while scrolling past them",
+            "editor": "Checkbox",
+            "name": "mirror",
+            "rank": 7
+        },
+        "AAa": {
+            "caption": "Once",
+            "default_val": false,
+            "doc": "whether animation should happen only once - while scrolling down",
+            "editor": "Checkbox",
+            "name": "once",
+            "rank": 8
+        },
+        "AAb": {
+            "caption": "Delay",
+            "default_val": 0,
+            "doc": " values from 0 to 3000, with step 50",
+            "editor": "StaticNumber",
+            "name": "delay",
+            "rank": 5
+        },
+        "AAc": {
+            "caption": "Offset",
+            "default_val": 0,
+            "doc": "offset (in px) from the original trigger point",
+            "editor": "StaticNumber",
+            "name": "offset",
+            "rank": 6
+        },
+        "AAe": {
+            "caption": "Set on repeating items",
+            "default_val": false,
+            "doc": "If you added an ID in the selectors that is a repeating group, you can set this to true so the animation happens on each items. If false, the whole repeating group will animate.",
+            "editor": "Checkbox",
+            "name": "repeating",
+            "rank": 9
+        }
+    },
+    "type": "client_side",
+    "use_packages": false
+}

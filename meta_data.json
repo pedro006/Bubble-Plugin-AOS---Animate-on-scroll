@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "containers"
+    },
+    "demo_page": "https://pmplugins.bubbleapps.io/version-test",
+    "description": "Animate on scroll library for bubble, using AOS 2.3.4 https://github.com/michalsnik/aos",
+    "image": "//s3.amazonaws.com/appforest_uf/f1673371403934x872954430604284600/wKPIyyAYB.png",
+    "license": "open_source",
+    "link": "https://forum.bubble.io/t/aos-animate-on-scroll-library/240994",
+    "name": "AOS - Animate on scroll",
+    "plugin_instructions": "Animate elements and repeating group items on your page.\n\n1. Make sur you have IDs activated\n\nSettings > Genereal > Expose the option to add an ID attribute to HTML elements\n\n2. Add ID to the elements you want to animate\n\n3. In workflow, add a trigger on page load then an AOS action to setup elements.\n\n4. You can setup multiple AOS action if you want different animations on the elements.\n\n\nTo animate repeating item, you should trigger the AOS action by checking if the repeating list loading is done.\n\n\nDEMO:\nhttps://pmplugins.bubbleapps.io/version-test\n\nDEMO EDITOR:\nhttps://bubble.io/page?name=index&id=pmplugins&tab=tabs-2\n"
+}
